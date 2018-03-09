@@ -2,6 +2,10 @@
 Servers/
 RemoteSystemsTempFiles/
 
+*/.metadata/
+*/Servers/
+*/RemoteSystemsTempFiles/
+*/.recommenders/
 
 
 #eclipse project specific
@@ -11,3 +15,15 @@ RemoteSystemsTempFiles/
 */build/
 */bin/
 */target/
+
+
+#eclipse project specific
+.classpath
+.project
+.settings/
+build/
+bin/
+target/
+
+#for jars
+*.jar
